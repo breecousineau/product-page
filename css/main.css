@@ -80,7 +80,7 @@ header nav ul li a:focus {
 }
 
 .h2 {
-  
+
 }
 
 button {
@@ -157,5 +157,13 @@ button {
  text
 }
 
+.main-tree-image {
+  max-width: 500px;
+}
+
 /* Add media query for desktop */
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 60em) {
+
+.main-tree-image {
+  max-width: 700px;
+}
