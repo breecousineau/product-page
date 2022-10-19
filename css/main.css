@@ -79,16 +79,21 @@ header nav ul li a:focus {
   text-decoration: underline;
 }
 
+.h2 {
+  
+}
+
 button {
   background-color: #556B2F;
   border: none;
   color: white;
-  padding: 10px 145px;
+  padding: .5em .75em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   border-radius: 1rem;
+  align-content: center;
 }
 
 button:hover {
@@ -110,22 +115,20 @@ button:hover {
 footer {
   text-align: center;
 }
-
-
 /* Default styling for all screens ends here */
 
 /* Add media query for tablet */
 
 @media only screen and (min-width: 38em) {
-  header {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+
+header {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
   align-items: start;
-
 }
 
 .grid {
@@ -145,12 +148,14 @@ h1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-/* Add media query for desktop */
 blockquote {
   margin: 0;
   column-gap: 2rem;
 }
 
 button {
- max-height: 3rem;
+ text
 }
+
+/* Add media query for desktop */
+@media only screen and (min-width: 38em) {
