@@ -41,6 +41,7 @@ img {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 1rem;
+  padding: .6em 0 0 0;
 }
 
 header {
@@ -86,19 +87,22 @@ button {
 }
 
 button:hover {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   background-color: white;
   border: .2rem solid #556B2F;
   color: #556B2F;
 
 }
 
-.Browsing-Images {
+.browsing-images {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
+  line-height: 0;
 }
+
+.quotes
 
 footer {
   text-align: center;
