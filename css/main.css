@@ -28,12 +28,17 @@ img {
 }
 
 .wrapper {
-  max-width: 400px;
+  max-width: 1400px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
   padding-bottom: 2em;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
 }
 
 .money-tree-images {
@@ -121,5 +126,31 @@ footer {
 h1 {
   align-items: start;
 
+}
 
+.grid {
+  flex-direction: row;
+  /* grid-template-columns: 1fr 1fr; */
+  gap: 1rem;
+}
+
+.browsing-images {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  line-height: 0;
+}
+
+.quote-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 /* Add media query for desktop */
+blockquote {
+  margin: 0;
+  column-gap: 2rem;
+}
+
+button {
+ max-height: 3rem;
+}
