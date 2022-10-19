@@ -118,7 +118,6 @@ footer {
 /* Default styling for all screens ends here */
 
 /* Add media query for tablet */
-
 @media only screen and (min-width: 38em) {
 
 header {
