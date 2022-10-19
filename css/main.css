@@ -33,7 +33,14 @@ img {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
+}
+
+.money-tree-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
 }
 
 header {
@@ -78,6 +85,21 @@ button {
   border-radius: 1rem;
 }
 
+button:hover {
+  text-decoration: underline;
+  background-color: white;
+  border: .2rem solid #556B2F;
+  color: #556B2F;
+
+}
+
+.Browsing-Images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+
 footer {
   text-align: center;
 }
@@ -91,9 +113,8 @@ footer {
   header {
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
-
 
 h1 {
   align-items: start;
