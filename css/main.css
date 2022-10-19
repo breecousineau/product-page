@@ -12,9 +12,9 @@ html {
 
 body {
   margin: 0;
+  margin: 1rem;
   font-family: 'Noto Sans', sans-serif;
-  line-height: normal;
-  /* include your font family and default line-height */
+  line-height: 1.5;
 }
 
 .logo {
@@ -24,11 +24,16 @@ body {
 
 img {
   width: 100%;
+  border-radius: 1rem;
 }
 
 .wrapper {
-  max-width: 1400px;
+  max-width: 400px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  padding-bottom: 5em;
 }
 
 header {
@@ -41,7 +46,13 @@ header nav ul {
   list-style-type: none;
   display: flex;
   gap: 1.5rem;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.125rem;
 }
+
 
 header nav ul li a {
   color: #000;
@@ -55,6 +66,18 @@ header nav ul li a:focus {
   text-decoration: underline;
 }
 
+button {
+  background-color: #556B2F;
+  border: none;
+  color: white;
+  padding: 10px 145px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1rem;
+}
+
 footer {
   text-align: center;
 }
@@ -64,7 +87,16 @@ footer {
 
 /* Add media query for tablet */
 
+@media only screen and (min-width: 38em) {
+  header {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
+
+h1 {
+  align-items: start;
 
 
 /* Add media query for desktop */
